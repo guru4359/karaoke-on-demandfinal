@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: karaoke-mp3-only
+    name: karaoke-premium-app
     env: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:app"
